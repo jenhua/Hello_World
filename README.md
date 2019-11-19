@@ -1,2 +1,2 @@
-# Hello_World
-Hello world MFC APP
+# Hello-World
+Hello world - MFC APP
