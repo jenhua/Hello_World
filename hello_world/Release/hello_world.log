@@ -1,0 +1,32 @@
+﻿已經開始建置於 2019/11/19 下午 04:21:10。
+     1>節點 2 (build 目標) 上的專案 "D:\Temp\hello_world\hello_world\hello_world.vcxproj"。
+     1>PrepareForBuild:
+         正在建立目錄 "D:\Temp\hello_world\Release\"。
+       InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Release\hello_world.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\hello_world.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\hello_world.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt hello_world.cpp hello_worldDlg.cpp
+         hello_world.cpp
+         hello_worldDlg.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0409" /IRelease\ /nologo /fo"Release\hello_world.res" hello_world.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Temp\hello_world\Release\hello_world.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\hello_world.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Temp\hello_world\Release\hello_world.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Temp\hello_world\Release\hello_world.lib" /MACHINE:X86 Release\hello_world.res
+         Release\hello_world.obj
+         Release\hello_worldDlg.obj
+         Release\stdafx.obj
+         正在產生程式碼
+         已完成程式碼產生
+         hello_world.vcxproj -> D:\Temp\hello_world\Release\hello_world.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Temp\hello_world\Release\hello_world.exe;#1" /manifest Release\hello_world.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在刪除檔案 "Release\hello_world.unsuccessfulbuild"。
+         正在變更時間戳記 "Release\hello_world.lastbuildstate"。
+     1>專案 "D:\Temp\hello_world\hello_world\hello_world.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:11.26
